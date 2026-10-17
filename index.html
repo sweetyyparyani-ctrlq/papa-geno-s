@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papa Geno's | Luxury Artisan Pizzeria &amp; Gourmet Grill</title>
+  <meta name="description" content="Papa Geno's - Experience Pakistan's finest artisan stone-baked pizzas, signature zinger burgers, chapli burgers, grilled rolls, chicken wings, and crispy delights in a luxurious chocolate & cream ambiance.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-bar" aria-label="Announcement">
+    <div class="container">
+      <div class="top-bar-left">
+        <span class="top-bar-badge">Express Delivery</span>
+        <span><i class="fa-solid fa-truck-fast"></i> Free delivery on orders over <strong>Rs. 1,999</strong> across the city!</span>
+      </div>
+      <div class="top-bar-right">
+        <span><i class="fa-solid fa-clock"></i> Open Today: <strong>12:00 PM – 03:00 AM</strong></span>
+        <a href="tel:+923001234567"><i class="fa-solid fa-phone"></i> +92 300 1234567</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="header-main" id="headerMain">
+    <div class="container">
+      <div class="nav-wrapper">
+        <!-- Logo -->
+        <a href="#home" class="brand-logo" aria-label="Papa Geno's Home">
+          <div class="logo-icon-wrap">
+            <img src="assets/images/logo.svg" alt="Papa Geno's Crest Logo">
+          </div>
+          <div class="brand-text-col">
+            <span class="brand-name">PAPA <span>GENO'S</span></span>
+            <span class="brand-tagline">Luxury Pizzeria &amp; Grill</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#entrance" class="nav-link">Grand Entrance</a>
+          <a href="#menu" class="nav-link">Our Menu</a>
+          <a href="#deals" class="nav-link">Deals &amp; Combos</a>
+          <a href="#craft" class="nav-link">The Craft</a>
+          <a href="#reviews" class="nav-link">Reviews</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="nav-actions">
+          <!-- Cart Toggle Button -->
+          <button type="button" class="btn-icon" id="cartBtn" aria-label="View Shopping Cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-badge" id="cartBadge">0</span>
+          </button>
+
+          <!-- Order Now CTA -->
+          <button type="button" class="btn-primary" id="orderNowNavBtn">
+            <i class="fa-solid fa-bolt"></i> Order Now
+          </button>
+
+          <!-- Mobile Hamburger -->
+          <button type="button" class="btn-mobile-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left Content -->
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span class="hero-pill-dot"></span>
+            <span>Handcrafted Culinary Luxury • Pakistan</span>
+          </div>
+
+          <h1 class="hero-title">
+            Where Royal Heritage Meets <span class="highlight-red">Artisan Passion</span> &amp; <span class="highlight-gold">Pure Taste.</span>
+          </h1>
+
+          <p class="hero-description">
+            Welcome to <strong>Papa Geno's</strong> — home to slow-fermented stone-baked pizzas, ultra-crispy double-coated zinger burgers, authentic charcoal chapli kebabs, and gourmet wraps prepared with imported whole-milk mozzarella and secret spice blends.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="btn-gold">
+              <i class="fa-solid fa-fire"></i> Explore Full Menu
+            </a>
+            <button type="button" class="btn-primary" id="heroOrderBtn">
+              <i class="fa-solid fa-bag-shopping"></i> Order Online (30 Min)
+            </button>
+            <a href="#entrance" class="btn-outline">
+              <i class="fa-solid fa-archway"></i> View Entrance
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <span class="hero-stat-num">4.9 ★</span>
+              <span class="hero-stat-label">12,000+ Reviews</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-num">30 Mins</span>
+              <span class="hero-stat-label">Piping Hot Delivery</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-num">100%</span>
+              <span class="hero-stat-label">Certified Halal</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-num">48 Hours</span>
+              <span class="hero-stat-label">Aged Artisan Dough</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Featured Visual Card (Featuring user's uploaded burger meal!) -->
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <span class="hero-featured-tag">🔥 Chef's Signature Feast</span>
+            <div class="hero-image-wrap">
+              <img src="assets/images/burger-combo.jpg" alt="Papa Geno's Royal Zinger Meal with French Fries and Drink">
+            </div>
+
+            <div class="hero-card-meta">
+              <div>
+                <h2 class="hero-card-title">Papa's Royal Zinger Feast</h2>
+                <p class="hero-card-sub">Double-crunch fillet burger + fries + beverage</p>
+              </div>
+              <div class="hero-card-price-block">
+                <span class="hero-card-old-price">Rs. 1,050</span>
+                <span class="hero-card-price">Rs. 850</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 1rem;">
+              <button type="button" class="btn-primary" style="width: 100%; justify-content: center;" onclick="document.getElementById('heroOrderBtn').click();">
+                <i class="fa-solid fa-plus"></i> Add Combo to Cart
+              </button>
+            </div>
+
+            <div class="hero-floating-badge">
+              <i class="fa-solid fa-crown floating-icon"></i>
+              <div>
+                <div class="floating-text-top">Signature Dish</div>
+                <div class="floating-text-bot">#1 Most Ordered</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Grand Entrance & Luxurious Ambiance Section -->
+  <section class="entrance-section" id="entrance">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">A Grand Welcome</span>
+        <h2 class="section-title">Step Into Elegance: <span>The Papa Geno's Experience</span></h2>
+        <p class="section-desc">
+          Designed with rich chocolate brown mahogany accents, warm glowing chandeliers, and plush cream leather booths. From the moment you arrive at our grand illuminated entrance, you enter an ambiance crafted for unforgettable dining.
+        </p>
+      </div>
+
+      <div class="entrance-showcase-grid">
+        <!-- Grand Entrance Showcase Card -->
+        <div class="entrance-banner-card">
+          <img src="assets/images/entrance.jpg" alt="Papa Geno's Grand Illuminated Restaurant Entrance">
+          <div class="entrance-overlay">
+            <span class="entrance-tag"><i class="fa-solid fa-location-dot"></i> The Grand Entrance</span>
+            <h3 class="entrance-caption-title">Welcome to Papa Geno's Grand Veranda</h3>
+            <p class="entrance-caption-desc">
+              A breathtaking architectural entrance featuring warm amber lanterns, luxury outdoor terrace, and valet reception.
+            </p>
+          </div>
+        </div>
+
+        <!-- Ambiance Features & Interior -->
+        <div class="entrance-features-col">
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <i class="fa-solid fa-couch"></i>
+            </div>
+            <div>
+              <h4 class="feature-box-title">Plush Chocolate Leather Dining</h4>
+              <p class="feature-box-desc">
+                Intimate booth seating dressed in chocolate brown and ivory cream tones with acoustic privacy for families and celebrations.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <i class="fa-solid fa-fire-burner"></i>
+            </div>
+            <div>
+              <h4 class="feature-box-title">Live 450°C Stone Hearth Oven</h4>
+              <p class="feature-box-desc">
+                Witness our pizzaiolos toss fresh hand-stretched dough and bake each pie right before your eyes in traditional stone heat.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box-icon">
+              <i class="fa-solid fa-champagne-glasses"></i>
+            </div>
+            <div>
+              <h4 class="feature-box-title">Private VIP Executive Lounges</h4>
+              <p class="feature-box-desc">
+                Exclusive dining rooms tailored for corporate dinners, birthdays, and wedding celebrations with dedicated waitstaff.
+              </p>
+            </div>
+          </div>
+
+          <!-- Interior Thumbnail Strip -->
+          <div class="interior-thumb-strip">
+            <div class="interior-thumb">
+              <img src="assets/images/interior.jpg" alt="Papa Geno's Warm Luxury Dining Interior">
+              <span class="interior-thumb-label">Main Dining Hall</span>
+            </div>
+            <div class="interior-thumb">
+              <img src="assets/images/chef.jpg" alt="Master Chef Handcrafting Artisan Food">
+              <span class="interior-thumb-label">Artisan Live Kitchen</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 0.5rem;">
+            <button type="button" class="btn-gold" id="openReservationBtn">
+              <i class="fa-solid fa-calendar-check"></i> Reserve a Table at Papa Geno's
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Menu Section -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Artisan Creations</span>
+        <h2 class="section-title">Explore Our <span>Gourmet Menu</span></h2>
+        <p class="section-desc">
+          Every dish at Papa Geno's is prepared to order using fresh local poultry, aged whole-milk mozzarella, aromatic tandoor marinades, and fresh farm greens.
+        </p>
+      </div>
+
+      <!-- Search & Category Filters -->
+      <div class="menu-search-filter-wrap">
+        <div class="menu-search-bar">
+          <i class="fa-solid fa-magnifying-glass menu-search-icon"></i>
+          <input type="text" id="menuSearch" class="menu-search-input" placeholder="Search by dish name (e.g. Tikka Pizza, Zinger, Shawarma, Pasta)...">
+        </div>
+
+        <div class="menu-tabs">
+          <button type="button" class="tab-btn active" data-category="all">
+            <i class="fa-solid fa-utensils"></i> All Dishes
+          </button>
+          <button type="button" class="tab-btn" data-category="pizza">
+            <i class="fa-solid fa-pizza-slice"></i> Artisan Pizzas
+          </button>
+          <button type="button" class="tab-btn" data-category="burger">
+            <i class="fa-solid fa-burger"></i> Gourmet Burgers
+          </button>
+          <button type="button" class="tab-btn" data-category="roll">
+            <i class="fa-solid fa-scroll"></i> Rolls &amp; Wraps
+          </button>
+          <button type="button" class="tab-btn" data-category="sides">
+            <i class="fa-solid fa-drumstick-bite"></i> Wings &amp; Sides
+          </button>
+          <button type="button" class="tab-btn" data-category="pasta">
+            <i class="fa-solid fa-bowl-food"></i> Italian Pasta
+          </button>
+          <button type="button" class="tab-btn" data-category="deals">
+            <i class="fa-solid fa-star"></i> Combos &amp; Deals
+          </button>
+        </div>
+      </div>
+
+      <!-- Menu Dynamic Cards Grid -->
+      <div class="menu-grid" id="menuGrid">
+        <!-- Rendered dynamically by JavaScript with all requested dishes:
+             Tikka Pizza, Kababish Pizza, Shahi Pizza, Bihari Pizza,
+             Zinger Burger, Chapli Burger, Chicken Roll, Shawarma,
+             Chicken Wings, Chicken Pasta, French Fries, Tortilla Wrap, Hot Shots
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Exclusive Deals & Combos Section -->
+  <section class="deals-section" id="deals">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Unmatched Value</span>
+        <h2 class="section-title">Signature <span>Feast Combos</span></h2>
+        <p class="section-desc">
+          Feast like royalty with our curated gourmet combinations designed for couples, friends, and family gatherings.
+        </p>
+      </div>
+
+      <div class="deals-grid">
+        <!-- Deal 1 -->
+        <div class="deal-card">
+          <span class="deal-ribbon">Save 25%</span>
+          <div class="deal-img-wrap">
+            <img src="assets/images/burger-combo.jpg" alt="Papa's Midnight Zinger Craving Box">
+          </div>
+          <div class="deal-content">
+            <h3 class="deal-title">Midnight Craving Box</h3>
+            <p style="font-size: 0.88rem; color: var(--color-cream-muted);">The ultimate late-night feast for crispy food lovers.</p>
+            <ul class="deal-items-list">
+              <li><i class="fa-solid fa-circle-check"></i> 1 Signature Zinger Burger</li>
+              <li><i class="fa-solid fa-circle-check"></i> 1 Smoky Tortilla Wrap</li>
+              <li><i class="fa-solid fa-circle-check"></i> 1 Large Peri-Peri French Fries</li>
+              <li><i class="fa-solid fa-circle-check"></i> 2 Soft Drinks (345ml) + Garlic Dip</li>
+            </ul>
+            <div class="deal-footer">
+              <div class="deal-price-block">
+                <span class="deal-old-price">Rs. 1,650</span>
+                <span class="deal-price">Rs. 1,350</span>
+              </div>
+              <button type="button" class="btn-primary" onclick="window.addDealToCart('Midnight Craving Box', 1350, 'assets/images/burger-combo.jpg')">
+                <i class="fa-solid fa-cart-plus"></i> Order Deal
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deal 2 -->
+        <div class="deal-card">
+          <span class="deal-ribbon">Family Pick</span>
+          <div class="deal-img-wrap">
+            <img src="assets/images/tikka-pizza.jpg" alt="Duo Pizza Fiesta Deal">
+          </div>
+          <div class="deal-content">
+            <h3 class="deal-title">Duo Artisan Pizza Fiesta</h3>
+            <p style="font-size: 0.88rem; color: var(--color-cream-muted);">Two medium stone-baked pizzas of your choice with drinks.</p>
+            <ul class="deal-items-list">
+              <li><i class="fa-solid fa-circle-check"></i> 1 Med Tikka or Kababish Pizza</li>
+              <li><i class="fa-solid fa-circle-check"></i> 1 Med Shahi or Bihari Pizza</li>
+              <li><i class="fa-solid fa-circle-check"></i> 1 Garlic Herb Bread (4 pcs)</li>
+              <li><i class="fa-solid fa-circle-check"></i> 1.5L Chilled Soft Drink</li>
+            </ul>
+            <div class="deal-footer">
+              <div class="deal-price-block">
+                <span class="deal-old-price">Rs. 2,800</span>
+                <span class="deal-price">Rs. 2,299</span>
+              </div>
+              <button type="button" class="btn-primary" onclick="window.addDealToCart('Duo Artisan Pizza Fiesta', 2299, 'assets/images/tikka-pizza.jpg')">
+                <i class="fa-solid fa-cart-plus"></i> Order Deal
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deal 3 -->
+        <div class="deal-card">
+          <span class="deal-ribbon">Grand Feast</span>
+          <div class="deal-img-wrap">
+            <img src="assets/images/chicken-wings.jpg" alt="The Royal Emperor Family Gathering">
+          </div>
+          <div class="deal-content">
+            <h3 class="deal-title">The Royal Emperor Feast</h3>
+            <p style="font-size: 0.88rem; color: var(--color-cream-muted);">A grand banquet made to satisfy 6 to 8 guests.</p>
+            <ul class="deal-items-list">
+              <li><i class="fa-solid fa-circle-check"></i> 2 Large 13" Artisan Pizzas</li>
+              <li><i class="fa-solid fa-circle-check"></i> 10 Pcs Honey BBQ Chicken Wings</li>
+              <li><i class="fa-solid fa-circle-check"></i> 1 Creamy Chicken Alfredo Pasta</li>
+              <li><i class="fa-solid fa-circle-check"></i> 2 Large Fries + 2.25L Soft Drink</li>
+            </ul>
+            <div class="deal-footer">
+              <div class="deal-price-block">
+                <span class="deal-old-price">Rs. 5,100</span>
+                <span class="deal-price">Rs. 4,200</span>
+              </div>
+              <button type="button" class="btn-primary" onclick="window.addDealToCart('The Royal Emperor Feast', 4200, 'assets/images/chicken-wings.jpg')">
+                <i class="fa-solid fa-cart-plus"></i> Order Deal
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Craft & Culinary Story Section -->
+  <section class="about-section" id="craft">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-media-stack">
+          <div class="about-img-main">
+            <img src="assets/images/chef.jpg" alt="Head Chef Crafting Papa Geno's Signature Pizza Dough">
+          </div>
+          <div class="about-badge-card">
+            <i class="fa-solid fa-medal about-badge-icon"></i>
+            <div class="about-badge-text">
+              <h4>Master Pizzaiolos</h4>
+              <p>Over 15 Years of Culinary Excellence</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <span class="section-subtitle">Our Culinary Heritage</span>
+          <h2 class="section-title">The Secret Behind <span>Papa Geno's</span> Flavor</h2>
+          <p class="section-desc">
+            At Papa Geno's, we believe great food begins with uncompromised ingredients and time-honored craft. We bridge authentic Italian stone-baking methods with Pakistan's most beloved smoky tandoor spices — resulting in an unforgettable flavor explosion.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <h5><i class="fa-solid fa-wheat-awn"></i> 48-Hour Cold Ferment</h5>
+              <p>Our sourdough crust rises slowly for 48 hours for an airy, crisp crumb that is light on the stomach.</p>
+            </div>
+            <div class="pillar-item">
+              <h5><i class="fa-solid fa-cheese"></i> 100% Mozzarella</h5>
+              <p>Never processed cheese blends. We shred fresh whole-milk mozzarella for the iconic golden cheese pull.</p>
+            </div>
+            <div class="pillar-item">
+              <h5><i class="fa-solid fa-pepper-hot"></i> Clay-Oven Tikka &amp; Bihari</h5>
+              <p>Real boneless chicken marinated in yogurt, raw papaya, and roasted masalas for true melt-in-mouth tenderness.</p>
+            </div>
+            <div class="pillar-item">
+              <h5><i class="fa-solid fa-leaf"></i> Fresh Farm Produce</h5>
+              <p>Crisp red peppers, vine tomatoes, and fresh herbs handpicked every morning from local farmers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews Section -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Loved by Foodies</span>
+        <h2 class="section-title">What Our Guests <span>Are Saying</span></h2>
+        <p class="section-desc">
+          Read genuine reviews from guests who have experienced Papa Geno's ambiance, dine-in luxury, and express doorstep delivery.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-quote">
+            "The Tikka Pizza and Kababish Pizza at Papa Geno's are legendary! The crust has that perfect smoky char with soft airy bubbles, and the toppings are so generous. Truly a five-star experience in taste and presentation."
+          </p>
+          <div class="review-author">
+            <div class="review-avatar">ZA</div>
+            <div class="review-info">
+              <h5>Zainab Ahmed</h5>
+              <span>Verified Food Critic • DHA Phase 5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-quote">
+            "That Zinger Burger meal is on another level! The chicken fillet is massive, juicy, and crunchier than any multinational chain. Plus, walking through their grand entrance feels like dining at a high-end European restaurant."
+          </p>
+          <div class="review-author">
+            <div class="review-avatar">MK</div>
+            <div class="review-info">
+              <h5>Malik Kamran</h5>
+              <span>Food Blogger • Gulberg</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-quote">
+            "Ordered the Bihari Pizza, Hot Shots, and Chicken Pasta for our family anniversary dinner. Delivered in 32 minutes flat, piping hot and steaming. Even the packaging is luxurious chocolate and gold!"
+          </p>
+          <div class="review-author">
+            <div class="review-avatar">FA</div>
+            <div class="review-info">
+              <h5>Farhan Ali &amp; Family</h5>
+              <span>Regular Patron • Bahria Town</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Table Reservation Banner -->
+  <section class="reservation-banner" id="contact">
+    <div class="container">
+      <div class="reservation-box">
+        <span class="section-subtitle" style="color: var(--color-gold-light);">Dine In Luxury</span>
+        <h3>Planning a Special Occasion?</h3>
+        <p>
+          Reserve a VIP table in our chocolate and cream dining hall, or book our veranda for celebrations, birthdays, and business dinners.
+        </p>
+        <div class="reservation-actions">
+          <button type="button" class="btn-gold" id="openReservationBtn2" onclick="document.getElementById('openReservationBtn').click();">
+            <i class="fa-solid fa-utensils"></i> Reserve Your Table
+          </button>
+          <a href="https://wa.me/923001234567?text=Hello%20Papa%20Geno's!%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation." target="_blank" class="btn-primary" style="background: linear-gradient(135deg, #25D366, #128C7E);">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col-brand">
+          <a href="#home" class="brand-logo" style="margin-bottom: 0.5rem;">
+            <div class="logo-icon-wrap" style="width: 46px; height: 46px;">
+              <img src="assets/images/logo.svg" alt="Papa Geno's Logo">
+            </div>
+            <div class="brand-text-col">
+              <span class="brand-name" style="font-size: 1.25rem;">PAPA <span>GENO'S</span></span>
+              <span class="brand-tagline">Luxury Pizzeria &amp; Grill</span>
+            </div>
+          </a>
+          <p>
+            Pakistan's premier destination for artisan stone-baked pizzas, gourmet smash and zinger burgers, wraps, and crispy appetizers crafted with chocolate, cream, and crimson passion.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://wa.me/923001234567" target="_blank" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home Page</a></li>
+            <li><a href="#entrance">Grand Entrance</a></li>
+            <li><a href="#menu">Full Food Menu</a></li>
+            <li><a href="#deals">Deals &amp; Combos</a></li>
+            <li><a href="#craft">Artisan Craft</a></li>
+            <li><a href="#reviews">Guest Reviews</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Popular Dishes -->
+        <div>
+          <h4 class="footer-title">Top Specialties</h4>
+          <ul class="footer-links">
+            <li><a href="#menu" onclick="filterByDish('tikka-pizza')">Tikka Pizza (Rs. 599)</a></li>
+            <li><a href="#menu" onclick="filterByDish('kababish-pizza')">Kababish Pizza (Rs. 649)</a></li>
+            <li><a href="#menu" onclick="filterByDish('shahi-pizza')">Shahi Pizza (Rs. 699)</a></li>
+            <li><a href="#menu" onclick="filterByDish('zinger-burger')">Zinger Burger (Rs. 590)</a></li>
+            <li><a href="#menu" onclick="filterByDish('chapli-burger')">Chapli Burger (Rs. 650)</a></li>
+            <li><a href="#menu" onclick="filterByDish('chicken-pasta')">Chicken Pasta (Rs. 890)</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Newsletter -->
+        <div>
+          <h4 class="footer-title">Store &amp; Delivery</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Plot 42-C, Boulevard Avenue, Phase 6, DHA (Near Grand Mosque)</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+92 300 1234567 / 042-35889900</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>orders@papagenos.pk</span>
+          </div>
+
+          <form class="footer-newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Papa Geno\'s VIP Club!');">
+            <input type="email" class="footer-newsletter-input" placeholder="Enter email for VIP deals..." required>
+            <button type="submit" class="footer-newsletter-btn">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 <strong>Papa Geno's Restaurant &amp; Grill</strong>. All Rights Reserved. Handcrafted with passion.
+        </div>
+        <div style="display: flex; gap: 1.5rem; align-items: center;">
+          <span><i class="fa-solid fa-certificate" style="color: var(--color-gold-primary);"></i> 100% Halal Certified</span>
+          <span><i class="fa-solid fa-shield-heart" style="color: var(--color-red-light);"></i> Food Authority A+ Grade</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Order Cart Button -->
+  <button type="button" class="floating-order-btn" id="floatingCartBtn">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <span>View Cart</span>
+    <span class="cart-badge" id="cartBadgeFloat" style="position: static; border: none;">0</span>
+  </button>
+
+  <!-- CART SLIDE-OVER DRAWER -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart Drawer">
+    <div class="cart-drawer-header">
+      <h3 class="cart-drawer-title">
+        <i class="fa-solid fa-bag-shopping" style="color: var(--color-gold-primary);"></i>
+        Your Order Cart
+      </h3>
+      <button type="button" class="btn-close-drawer" id="closeCartBtn" aria-label="Close Cart">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Items List Body -->
+    <div class="cart-items-body" id="cartItemsList">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Drawer Summary Footer -->
+    <div class="cart-drawer-footer">
+      <!-- Promo code field -->
+      <div class="cart-promo-row">
+        <input type="text" id="promoCodeInput" class="cart-promo-input" placeholder="Promo Code (e.g. PAPA10)">
+        <button type="button" id="applyPromoBtn" class="btn-apply-promo">Apply</button>
+      </div>
+
+      <div class="cart-summary-line">
+        <span>Subtotal</span>
+        <span id="cartSubtotal">Rs. 0</span>
+      </div>
+      <div class="cart-summary-line">
+        <span>Delivery Fee (Free > Rs. 1,999)</span>
+        <span id="cartDelivery">Rs. 0</span>
+      </div>
+      <div class="cart-summary-line" id="cartDiscountRow" style="display: none; color: #2ecc71;">
+        <span>Promo Discount</span>
+        <span id="cartDiscount">- Rs. 0</span>
+      </div>
+      <div class="cart-summary-line total-line">
+        <span>Total Payable (PKR)</span>
+        <span class="total-amount" id="cartTotal">Rs. 0</span>
+      </div>
+
+      <button type="button" class="btn-primary" id="checkoutBtn" style="width: 100%; justify-content: center; padding: 0.85rem;" disabled>
+        <i class="fa-solid fa-credit-card"></i> Proceed to Checkout
+      </button>
+    </div>
+  </aside>
+
+  <!-- CHECKOUT MODAL -->
+  <div class="modal-backdrop" id="checkoutModalBackdrop">
+    <div class="modal-card" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <div class="modal-header">
+        <h3 id="checkoutTitle"><i class="fa-solid fa-cash-register" style="color: var(--color-gold-primary); margin-right: 0.5rem;"></i> Finalize Your Order</h3>
+        <button type="button" class="btn-close-drawer" id="closeCheckoutBtn" aria-label="Close Checkout">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <form id="checkoutForm">
+          <!-- Delivery vs Pickup selector -->
+          <div class="delivery-options-grid">
+            <div class="delivery-opt-card active" data-delivery-type="Lightning Home Delivery">
+              <i class="fa-solid fa-motorcycle"></i>
+              <h4>Home Delivery</h4>
+              <p>Hot at your doorstep in 30-40 mins</p>
+            </div>
+            <div class="delivery-opt-card" data-delivery-type="Self Pickup">
+              <i class="fa-solid fa-shop"></i>
+              <h4>Express Takeaway</h4>
+              <p>Ready at Papa Geno's counter in 20 mins</p>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="custName" class="form-label">Full Name *</label>
+              <input type="text" id="custName" class="form-input" placeholder="e.g. Ahmed Khan" required>
+            </div>
+            <div class="form-group">
+              <label for="custPhone" class="form-label">Phone / WhatsApp Number *</label>
+              <input type="tel" id="custPhone" class="form-input" placeholder="e.g. 0300 1234567" required>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="custAddress" class="form-label">Delivery Street Address *</label>
+              <input type="text" id="custAddress" class="form-input" placeholder="House / Flat No, Street, Landmark" required>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="custCity" class="form-label">Area / Sector *</label>
+              <input type="text" id="custCity" class="form-input" placeholder="e.g. DHA Phase 5, Gulberg III, Bahria Town..." required>
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label">Payment Method *</label>
+              <div class="payment-methods-grid">
+                <div class="payment-opt-card active" data-payment-type="Cash on Delivery (COD)">
+                  <i class="fa-solid fa-money-bill-wave"></i>
+                  <span>Cash on Delivery</span>
+                </div>
+                <div class="payment-opt-card" data-payment-type="JazzCash / Easypaisa">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                  <span>JazzCash / Easypaisa</span>
+                </div>
+                <div class="payment-opt-card" data-payment-type="Credit / Debit Card">
+                  <i class="fa-solid fa-credit-card"></i>
+                  <span>Card on Delivery</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="custNotes" class="form-label">Special Cooking / Delivery Instructions (Optional)</label>
+              <textarea id="custNotes" class="form-textarea" placeholder="e.g. Extra spicy sauce on pizza, please ring doorbell twice..."></textarea>
+            </div>
+          </div>
+
+          <div class="checkout-total-box">
+            <span>Total Payable with Taxes &amp; Delivery:</span>
+            <strong id="checkoutGrandTotal">Rs. 0</strong>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; font-size: 1.05rem; padding: 0.9rem;">
+            <i class="fa-solid fa-circle-check"></i> Confirm &amp; Place Order Now
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ORDER SUCCESS RECEIPT MODAL -->
+  <div class="modal-backdrop" id="receiptModalBackdrop">
+    <div class="modal-card" id="receiptModal" role="dialog" aria-modal="true" style="max-width: 580px;">
+      <div class="modal-header" style="justify-content: flex-end; border-bottom: none; padding-bottom: 0;">
+        <button type="button" class="btn-close-drawer" id="closeReceiptBtn" aria-label="Close Receipt">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="order-receipt-card" id="receiptContent">
+        <!-- Rendered via JavaScript with Order ID, detailed receipt & WhatsApp direct button -->
+      </div>
+    </div>
+  </div>
+
+  <!-- QUICK VIEW MODAL -->
+  <div class="modal-backdrop" id="quickViewModalBackdrop">
+    <div class="modal-card" id="quickViewModal" role="dialog" aria-modal="true" style="max-width: 720px;">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-circle-info" style="color: var(--color-gold-primary); margin-right: 0.4rem;"></i> Dish Details</h3>
+        <button type="button" class="btn-close-drawer" id="closeQuickViewBtn" aria-label="Close Details">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="quickViewBody">
+        <!-- Rendered via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TABLE RESERVATION MODAL -->
+  <div class="modal-backdrop" id="reservationModalBackdrop">
+    <div class="modal-card" id="reservationModal" role="dialog" aria-modal="true" style="max-width: 540px;">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-champagne-glasses" style="color: var(--color-gold-primary); margin-right: 0.5rem;"></i> Table Reservation</h3>
+        <button type="button" class="btn-close-drawer" id="closeReservationBtn" aria-label="Close Reservation">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="reservationForm">
+          <div class="form-grid">
+            <div class="form-group full-width">
+              <label for="resName" class="form-label">Full Name *</label>
+              <input type="text" id="resName" class="form-input" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="resPhone" class="form-label">Phone Number *</label>
+              <input type="tel" id="resPhone" class="form-input" placeholder="0300 1234567" required>
+            </div>
+            <div class="form-group">
+              <label for="resGuests" class="form-label">Number of Guests *</label>
+              <select id="resGuests" class="form-select" required>
+                <option value="2">2 Guests (Couple)</option>
+                <option value="4" selected>4 Guests (Family)</option>
+                <option value="6">6 Guests</option>
+                <option value="8">8 Guests (VIP Lounge)</option>
+                <option value="12+">12+ Guests (Private Hall)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="resDate" class="form-label">Date *</label>
+              <input type="date" id="resDate" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label for="resTime" class="form-label">Time *</label>
+              <select id="resTime" class="form-select" required>
+                <option value="01:00 PM">01:00 PM (Lunch)</option>
+                <option value="03:00 PM">03:00 PM (Late Lunch)</option>
+                <option value="07:30 PM">07:30 PM (Evening)</option>
+                <option value="09:00 PM" selected>09:00 PM (Prime Dinner)</option>
+                <option value="11:00 PM">11:00 PM (Late Dinner)</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label for="resSeating" class="form-label">Preferred Seating Area</label>
+              <select id="resSeating" class="form-select">
+                <option value="Grand Dining Hall">Plush Booth (Main Dining Hall)</option>
+                <option value="Outdoor Terrace">Outdoor Illuminated Veranda</option>
+                <option value="VIP Family Lounge">VIP Private Family Lounge</option>
+              </select>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <button type="submit" class="btn-gold" style="width: 100%; justify-content: center; font-size: 1rem; padding: 0.85rem;">
+              <i class="fa-solid fa-check"></i> Confirm Reservation
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notifications Container -->
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+
+
+  <!-- Application Logic -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
